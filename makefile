@@ -21,5 +21,3 @@ my_mat.o: my_mat.c my_mat.h
 
 clean:
 	rm -f libmy_mat.so *.o connections
-run1:
-	./connections
