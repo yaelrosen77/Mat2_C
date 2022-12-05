@@ -14,18 +14,15 @@ int main(){
             for (i=0;i<N; i++){
                 for(j=0;j<N; j++){
                     scanf(" %d", &new_matrix[i][j]);
-                    if (i!=j && new_matrix[i][j]==0)
-                    {
-                        new_matrix[i][j] = (int)INFINITY;
-                    }}
+                    if (i!=j && new_matrix[i][j]==0){
+                        new_matrix[i][j] = (int)INFINITY;}
                     }
-                }
             }
-        Afunc(new_matrix);
-
-        }
+              Afunc(new_matrix); 
+               }
+            
     
-        else if (ch=='B')
+    else if (ch=='B')
         {   
             scanf("%d",&i);
             scanf("%d",&j);
